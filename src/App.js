@@ -8,8 +8,6 @@ function App() {
   return (
     <Router basename="/Movie-Listing-Site">
       <Routes>
-        {/* <Route path="/" element={<MovieListing />} /> */}
-        {/* <Route path="/movie/:id" element={<SingleMovie />} /> */}
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<MovieListing />} />
           <Route path="/movie" element={<SingleMovie />} />
