@@ -6,7 +6,7 @@ import Layout from './Pages/Layout';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Movie-Listing-Site">
       <Routes>
         {/* <Route path="/" element={<MovieListing />} /> */}
         {/* <Route path="/movie/:id" element={<SingleMovie />} /> */}
